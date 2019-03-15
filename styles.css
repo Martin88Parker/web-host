@@ -1,0 +1,483 @@
+/* Global Setup */
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow-x: hidden;
+	background-color: #808080;
+	max-width: 100%;
+}
+
+/* Backgrounds */
+/* Index Background */
+#ibg {
+	max-width: 100%;
+}
+
+/* About Background */
+#abg {
+	max-width: 100%;
+}
+
+/* Contact Background */
+#cbg {
+	max-width: 100%;
+}
+
+/* Raspberry Background */
+#pbg {
+	max-width: 100%;
+}
+
+/* Codes Background */
+#cobg {
+	max-width: 100%;	
+}
+
+/* Blogs Background */
+#bbg {
+	max-width: 100%;
+}
+
+/* Header */
+header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+h1 {
+	display: block;
+	position: relative;
+	background-color: #6cc04a;
+	margin: 0;
+	text-align: center;
+	font-size: 7vw;
+	color: #404040;
+}
+
+/* Media Setup */
+@media screen and (min-width: 564px){
+	#imain p {
+		font-size: 13px;
+		top: 30%;
+	}
+	#imain h5 {
+		bottom: 35%;
+	}
+	#amain p {
+		font-size: 13px;
+		top: 35%;
+		line-height: 20px;
+	}
+	#cmain p {
+		font-size: 13px;
+		top: 30%;
+	}
+	#cmain img {
+		top: 35%;
+		width: 10%;
+		left: 45%;
+	}
+	#cmain h5 {
+		top: 57%;
+	}
+	#pmain {
+		top: 30%;
+		left: 5%;
+	}
+	#pmain p {
+		font-size: 13px;
+		line-height: 20px;
+	}
+	#pmain .jamlogo h5 {
+		font-size: 13px;
+		line-height: 20px;
+	}
+	#cotop {
+		font-size: 13px;
+		left: 0%;
+	}
+}
+
+@media screen and (max-width: 564px){
+	#imain p {
+		font-size: 7px;
+		top: 15%;
+	}
+	#imain h5 {
+		bottom: 20%;
+	}
+	#amain p {
+		font-size: 7px;
+		top: 20%;
+		line-height:10px;
+	}
+	#cmain p {
+		font-size: 7px;
+		top: 15%;
+	}
+	#cmain img {
+		top: 17%;
+		width: 10%;
+		left: 45%;
+	}
+	#cmain h5 {
+		font-size: 7px;
+		top: 24%;
+	}
+	#pmain {
+		top: 10%;
+		left: 5%;
+	}
+	#pmain p {
+		font-size: 7px;
+		line-height: 10px;
+	}
+	#pmain .jamlogo h5 {
+		font-size: 7px;
+		line-height: 10px;
+	}
+	#cotop {
+		font-size: 7px;
+		top: 20%;
+	}
+}
+
+/* Navigation */
+nav {
+	opacity: 0.7;
+}
+
+ul {
+	text-transform: uppercase;
+	left: 5px;
+}
+
+ul li {
+	width: 16.6666%;
+	height: 3vw;
+	line-height: 3vw;
+	font-size: 1.5vw;
+	list-style: none;
+	float: left;
+	background-color: #404040;
+	text-align: center;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+.current a {
+	background-color: purple;
+}
+
+ul li a:hover {
+	background-color: purple;
+}
+
+ul li ul li {
+	display: none;
+}
+
+ul li:hover ul li {
+	display: block;
+	width: 100%;
+}
+
+/* Main Content */
+/* Index */
+#imain p {
+	position: absolute;
+	left: 5%;
+	right: 5%;
+	text-align: center;
+	line-height: 20px;
+}
+
+/* About */
+#amain p {
+	position: absolute;
+	left: 5%;
+	right: 5%;
+	text-align: center;
+}
+
+/* Contact */
+#cmain p {
+	position: absolute;
+	left: 5%;
+	right: 5%;
+	text-align: center;
+}
+
+#cmain img {
+	position: absolute;
+}
+
+#cmain h5 {
+	position: absolute;
+	left: 5%;
+	right: 5%;
+	text-align: center;
+}
+
+/* Pi */
+#pmain {
+	position: absolute;
+	right: 3%;
+}
+
+.pipic {
+	position: relative;
+	max-width: 40%;
+	height: auto;
+	border: 3px solid #404040;
+	border-radius: 20px;
+	float: left;
+	margin-right: 20px;
+	background: DarkGray;
+}	
+
+#pmain p {
+	position: relative;
+	display: inline;
+	font-size: 3vh;
+}
+
+.logos {
+	position: relative;
+	margin-top: 50px;
+}
+
+.logos a {
+	text-decoration: none;
+}
+
+.pilogo {
+	max-width: 15%;
+	float: left;
+	margin-left: 5%;
+}
+
+.pilogo img {
+	max-width: 100%;
+	height: auto;
+}
+
+.jamlogo {
+	margin-right: 10%;
+	float: right;
+	display: inline;
+	max-width: 15%;
+}
+
+.jamlogo h5 {
+	margin: 0 0 20px 0;
+	text-align: center;
+	max-width: 100%;
+	font-size: 70%
+}
+
+.jamlogo img {
+	margin-top: 10px;
+	max-width: 100%;
+	height: auto;
+}
+
+/* Codes */
+#comain {
+	position: absolute;
+	top: 200px;
+	left: 5%;
+	right: 5%;
+}
+
+.codetop {
+	text-align: center;
+}
+
+.codearea {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.codingbox {
+	position: relative;
+	float: left;
+	min-width: 260px;
+	max-width: 30%;
+	height: 500px;
+	border: 3px solid #404040;
+	border-radius: 20px;
+	background: DarkGray;
+	text-align: justify;
+	margin: 25px 0px 0 20px;
+	display: inline-block;
+}
+
+.codingbox img {
+	max-width: 100%;
+	border-radius: 20px;
+}
+
+.codingbox h3 {
+	text-align: center;
+	color: ##404040;
+}
+
+.codingbox p {
+	text-align: center;
+	text-decoration: none;
+}
+
+.codingbox h5 {
+	text-align: center;
+	color: ##404040;
+}
+
+/* Blogs */
+/* Main List */
+#bmain {
+	position: absolute;
+	top: 220px;
+	left: 50px;
+	right: 50px;
+}
+
+#blogtop h2 {
+	text-align: center;
+	font-size: 10vh;
+	color: #6cc04a;
+}
+
+.blogsarea {
+	width: 100%;
+}
+
+.postarea {
+	position: relative;
+	float: center;
+	height: 30vh;
+	width: 100%;
+	background-color: #404040;
+}
+
+.postarea img {
+	float: left;
+	left: 50px;
+	height: 30vh;
+	margin-right: 20px;
+}
+
+.postarea h3 {
+	text-align: center;
+	font-size: 7vh;
+	color: white;
+	float: below;
+	padding-bottom: 20px;
+}
+
+.postarea p {
+	text-align: left;
+	font-size: 3vh;
+	float: below;
+}
+
+.postarea h5 {
+	float: left;
+	font-size: 3vh;
+}
+
+#bmain .spacer {
+	position: relative;
+	float: center;
+	margin: 25px 100px 25px 100px;
+	border-top: 10px solid #6cc04a;
+}
+
+/* Per Blog */
+#nbmain {
+	position: absolute;
+	display: block;
+	top: 220px;
+	left: 50px;
+	right: 50px;
+}
+
+#blogtitle {
+	text-align: center;
+	font-size: 8vh;
+	margin-bottom: 20px;
+}
+
+#blogpostmain {
+	width: 100%;
+	display: block;
+}
+
+.check {
+	display: block;
+	width: 100%;
+}
+
+#showcase {
+	float: left;
+	max-width: 50%;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#showtext {
+	display: inline;
+	color: white;
+	font-size: 4vh;
+}
+
+.show2nd {
+	display: inline-block;
+}
+
+.show2nd p {
+	margin-top: 20px;
+	font-size: 4vh;
+	text-align: center;
+	background-color: #404040;
+}
+
+.gallery {
+	width: 100%;
+}
+
+.gallery img {
+	width: 58vh;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+
+/* Footer */
+footer {
+	border-top: 3px solid purple;
+	position: relative;
+	background-color: #6cc04a;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#info {	
+	color: #404040;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	color: #404040;
+}
